@@ -1,3 +1,4 @@
+
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <!DOCTYPE html>
 <html lang="en">
@@ -118,6 +119,10 @@ a{color:inherit}
 /* section heads */
 .h2{font-size:clamp(2rem,1.2rem + 2.8vw,3.4rem);border-top:3px solid var(--copper);padding-top:26px;display:inline-block}
 
+/* about */
+.about{background:var(--bg-alt)}
+.about__text{margin-top:22px;max-width:62ch;color:var(--ink-soft);font-size:1.08rem;line-height:1.65}
+
 /* capability grid */
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1px;background:var(--rule);
   border:1px solid var(--rule);margin-top:44px}
@@ -209,7 +214,7 @@ a{color:inherit}
   <div class="wrap hero__in">
     <div class="hero__rule" aria-hidden="true"></div>
     <h1>Built strong. Crafted precise.</h1>
-    <p>Pacific Northwest based custom metal fabrication for industrial, commercial and government projects.</p>
+    <p>Providing nationwide custom metal fabrication for the last 14 years.</p>
     <div class="hero__cta">
       <a class="btn btn--copper" href="mailto:contact@bridgetownmetalworks.com">Request a quote</a>
       <a class="btn btn--ghost" href="#capabilities">Capabilities</a>
@@ -243,7 +248,7 @@ a{color:inherit}
           <rect x="7" y="12" width="26" height="20"/><path d="M7 12l6-6h14l6 6"/><path d="M15 32v4M25 32v4"/><circle cx="20" cy="22" r="4"/>
         </svg>
         <h3>Tanks &amp; vessels</h3>
-        <p>Jacketed, atmospheric and code vessels.</p>
+        <p>Standard and custom heavy-gauge tanks and vessels.</p>
       </article>
 
       <article class="cell">
@@ -251,7 +256,7 @@ a{color:inherit}
           <path d="M6 34l12-12"/><path d="M17 21l6-6 5 5-6 6z"/><path d="M25 12l6-6 3 3-6 6z"/><path d="M6 34l3-6 3 3z"/>
         </svg>
         <h3>Welding</h3>
-        <p>Stainless, carbon, aluminum, alloys.</p>
+        <p>TIG/MIG and sanitary welding, stainless, carbon and copper.</p>
       </article>
 
       <article class="cell">
@@ -259,7 +264,7 @@ a{color:inherit}
           <path d="M5 26c8-14 22-14 30 0"/><path d="M5 32h30"/><circle cx="20" cy="9" r="3.5"/>
         </svg>
         <h3>Forming</h3>
-        <p>Press breaking, plate rolling, bending.</p>
+        <p>Press braking, plate rolling, bending.</p>
       </article>
 
       <article class="cell">
@@ -267,7 +272,7 @@ a{color:inherit}
           <path d="M6 32h28"/><path d="M12 32V18l8-8 8 8v14"/><path d="M17 32v-8h6v8"/>
         </svg>
         <h3>Finishing</h3>
-        <p>Polish, passivation, coatings.</p>
+        <p>Hydrostatic testing, quality control and finishing.</p>
       </article>
 
       <article class="cell">
@@ -275,15 +280,15 @@ a{color:inherit}
           <path d="M4 34h32"/><path d="M10 34V14h6v20M24 34V8h6v26"/><path d="M10 22h6M24 18h6"/>
         </svg>
         <h3>Structural</h3>
-        <p>Frames, platforms, skids, heavy plate.</p>
+        <p>Structural assemblies, frames and welded components.</p>
       </article>
 
       <article class="cell">
         <svg width="38" height="38" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-          <circle cx="20" cy="20" r="14"/><circle cx="20" cy="20" r="5"/><path d="M20 6v6M20 28v6M6 20h6M28 20h6"/>
+          <path d="M4 20h10"/><path d="M14 14l8 6-8 6z"/><path d="M30 14l-8 6 8 6z"/><path d="M26 20h10"/>
         </svg>
-        <h3>Machining</h3>
-        <p>CNC milling and turning to tolerance.</p>
+        <h3>Piping &amp; process</h3>
+        <p>Custom piping and pipe assemblies for fluid systems.</p>
       </article>
 
       <article class="cell">
@@ -291,7 +296,7 @@ a{color:inherit}
           <rect x="6" y="6" width="28" height="28"/><path d="M6 15h28M15 15v19"/><path d="M21 22h8M21 27h8"/>
         </svg>
         <h3>Build to print</h3>
-        <p>Drawings, models or a sketch.</p>
+        <p>Engineering, prototyping and custom design.</p>
       </article>
 
       <article class="cell">
@@ -303,6 +308,13 @@ a{color:inherit}
       </article>
 
     </div>
+  </div>
+</section>
+
+<section class="sec about" id="about">
+  <div class="wrap">
+    <h2 class="h2">About us</h2>
+    <p class="about__text">Bridgetown Metalworks got its start nearly 15 years ago providing custom manufacturing for distilleries and breweries. Since then, we have expanded to serve metal fabrication across industries, specializing in steel, copper, and stainless steel work. We manufacture all our products on-site in our shop just outside of Portland, Oregon and have a long standing commitment to quality work that we proudly stand by.</p>
   </div>
 </section>
 
@@ -346,11 +358,11 @@ a{color:inherit}
       </div>
       <div class="gov__item">
         <h3>Quality commitment</h3>
-        <p>Qualified procedures, documented inspection, nothing ships unchecked.</p>
+        <p>Hydrostatic testing, documented QA, nothing ships unchecked.</p>
       </div>
       <div class="gov__item">
         <h3>Preferred Vendor &amp; Subcontractor</h3>
-        <p>Qualified Small Business, vendor integration, schedules held.</p>
+        <p>Direct manufacturer and supply chain partner to government agencies, prime contractors and commercial customers.</p>
       </div>
     </div>
     <figure class="ph ph--gov">
